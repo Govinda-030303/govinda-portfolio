@@ -1,8 +1,9 @@
 const Footer = () => {
+
   return (
     <footer className="text-gray-600 px-8 py-12">
       <div className="flex flex-col md:flex-row justify-between max-w-6xl mx-auto gap-10">
-        
+
         {/* Left section */}
         <div className="md:w-1/3">
           <h3 className="text-xl font-bold text-[#14b8a5] mb-2">Govinda Bitlani</h3>
@@ -30,12 +31,15 @@ const Footer = () => {
         <div className="md:w-1/3">
           <h3 className="text-lg font-semibold text-[#14b8a5] mb-3">Quick Links</h3>
           <ul className="space-y-2">
-            {["About", "Skills", "Projects", "Contact"].map((link) => (
+            {["About", "Skills", "Projects", "Contacts"].map((link) => (
               <li
                 key={link}
                 className="relative cursor-pointer hover:text-[#14b8a5] transition duration-300 group"
               >
-                {link}
+                <a href={`#${link.toLowerCase()}`}>
+
+                  {link}
+                </a>
                 <span className="absolute left-0 -bottom-1 w-0 h-0.5 bg-[#14b8a5] transition-all duration-300 group-hover:w-16"></span>
               </li>
             ))}

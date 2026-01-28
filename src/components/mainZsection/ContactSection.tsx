@@ -6,17 +6,17 @@ const ContactSection = () => {
   const contactInfo = [
     {
       label: "Email",
-      value: "developer@example.com",
-      href: "mailto:developer@example.com",
+      value: "govinda.boj@gmail.com",
+      href: "mailto:govidna.boj@gmail.com",
     },
     {
       label: "Phone",
-      value: "+1 (555) 123-4567",
-      href: "tel:+15551234567",
+      value: "+91 9166848693",
+      href: "tel:+919166848693",
     },
     {
       label: "Location",
-      value: "San Francisco, CA",
+      value: "Jaipur, Rajasthan, India",
       href: "#",
     },
   ];
@@ -28,7 +28,7 @@ const ContactSection = () => {
   ];
 
   return (
-    <section id="contact" className="relative px-6 py-24 overflow-hidden min-h-screen">
+    <section id="contacts" className="relative px-6 py-24 overflow-hidden min-h-screen">
       {/* Soft background glow */}
       <div className="absolute inset-0 -z-10">
         <div className="absolute top-24 left-1/2 -translate-x-1/2 w-150 h-150 bg-[#14b8a5]/20 blur-[120px] rounded-full" />
@@ -150,7 +150,7 @@ const ContactSection = () => {
             </div>
           </div>
 
-                  </div>
+        </div>
       </div>
 
       {/* Freelance Highlight */}
