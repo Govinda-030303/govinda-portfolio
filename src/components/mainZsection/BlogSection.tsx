@@ -6,7 +6,7 @@ const BlogSection = () => {
         "Explore best practices for designing and implementing microservices architecture using Spring Boot, including service discovery, API gateway patterns, and distributed tracing.",
       category: "Backend Engineering",
       tags: ["Spring Boot", "Microservices", "Java"],
-      link: "#",
+      link: "https://dev.to/ayshriv/building-scalable-microservices-with-java-spring-boot-best-practices-and-techniques-part-1-1da3",
     },
     {
       title: "AI Integration in Modern Web Applications",
@@ -14,7 +14,7 @@ const BlogSection = () => {
         "A practical guide to integrating AI into web applications, covering machine learning models, NLP, APIs, and real-world implementation strategies.",
       category: "AI / Machine Learning",
       tags: ["AI", "Machine Learning", "Integration"],
-      link: "#",
+      link: "https://medium.com/tech-and-tricks/integrating-ai-with-web-applications-opportunities-challenges-8f0ee3d81b1c",
     },
     {
       title: "React Native vs Kotlin Multiplatform",
@@ -22,7 +22,7 @@ const BlogSection = () => {
         "An in-depth comparison of React Native and Kotlin Multiplatform for cross-platform mobile development based on real-world performance and scalability.",
       category: "Mobile Development",
       tags: ["React Native", "Kotlin", "Cross-Platform"],
-      link: "#",
+      link: "https://kotlinlang.org/docs/multiplatform/kotlin-multiplatform-react-native.html#frequently-asked-questions",
     },
   ];
 

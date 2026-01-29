@@ -13,7 +13,7 @@ const ProjectSection = () => {
         "Advanced search & filtering",
         "Admin dashboard",
       ],
-      github: "#",
+      github: "https://github.com/Govinda-030303",
       demo: "#",
     },
     {
@@ -27,7 +27,7 @@ const ProjectSection = () => {
         "Grade analytics dashboard",
         "Integrated messaging system",
       ],
-      github: "#",
+      github: "https://github.com/Govinda-030303",
       demo: "#",
     },
     {
@@ -41,7 +41,7 @@ const ProjectSection = () => {
         "Appointment scheduling",
         "Prescription management",
       ],
-      github: "#",
+      github: "https://github.com/Govinda-030303",
       demo: "#",
     },
   ];

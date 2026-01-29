@@ -5,8 +5,8 @@ import mail from '../../assets/icons/mailIcon.png'
 const HeroSection = () => {
 
     const socialLinks = [
-        { icon: github, label: "GitHub", href: "https://github.com" },
-        { icon: linkedin, label: "LinkedIn", href: "https://linkedin.com" },
+        { icon: github, label: "GitHub", href: "https://github.com/Govinda-030303" },
+        { icon: linkedin, label: "LinkedIn", href: "https://www.linkedin.com/in/govinda-bitlani-8674bb201/" },
         { icon: mail, label: "Email", href: "mailto:govidna.boj@gmail.com" },
     ];
 
@@ -60,9 +60,6 @@ const HeroSection = () => {
                         </a>
                     ))}
                 </div>
-                {/* <img src={linkedIn} alt=" linkedIn icon" />
-                <img src={githubIcon} alt=" Github icon" />
-                <img src={mailIcon} alt=" mail icon" /> */}
             </div>
         </section>
     );

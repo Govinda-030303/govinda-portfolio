@@ -22,9 +22,9 @@ const ContactSection = () => {
   ];
 
   const socialLinks = [
-    { icon: github, label: "GitHub", href: "https://github.com" },
-    { icon: linkedin, label: "LinkedIn", href: "https://linkedin.com" },
-    { icon: mail, label: "Email", href: "mailto:developer@example.com" },
+    { icon: github, label: "GitHub", href: "https://github.com/Govinda-030303" },
+    { icon: linkedin, label: "LinkedIn", href: "https://www.linkedin.com/in/govinda-bitlani-8674bb201/" },
+    { icon: mail, label: "Email", href: "mailto:govinda.boj@gmail.com" },
   ];
 
   return (
@@ -50,59 +50,68 @@ const ContactSection = () => {
                    bg-white/70 backdrop-blur-xl border border-gray-200 shadow-xl
                    animate-fade-up"
       >
-        {/* Form */}
-        <form className="lg:col-span-2 flex flex-col gap-6">
-          <div className="grid md:grid-cols-2 gap-6">
-            <div>
-              <label className="block text-sm font-medium text-gray-600 mb-1">Name</label>
-              <input
-                type="text"
-                placeholder="Your name"
-                className="w-full px-4 py-3 rounded-xl border border-gray-300 bg-white/80
-                           focus:outline-none focus:ring-2 focus:ring-[#14b8a5]/40"
-              />
-            </div>
-            <div>
-              <label className="block text-sm font-medium text-gray-600 mb-1">Email</label>
-              <input
-                type="email"
-                placeholder="your.email@example.com"
-                className="w-full px-4 py-3 rounded-xl border border-gray-300 bg-white/80
-                           focus:outline-none focus:ring-2 focus:ring-[#14b8a5]/40"
-              />
-            </div>
-          </div>
+       {/* Form */}
+<form
+  action="mailto:govinda.boj@gmail.com"
+  method="POST"
+  encType="text/plain"
+  className="lg:col-span-2 flex flex-col gap-6"
+>
+  <div className="grid md:grid-cols-2 gap-6">
+    <div>
+      <label className="block text-sm font-medium text-gray-600 mb-1">Name</label>
+      <input
+        type="text"
+        name="name"
+        placeholder="Your name"
+        className="w-full px-4 py-3 rounded-xl border border-gray-300 bg-white/80
+                   focus:outline-none focus:ring-2 focus:ring-[#14b8a5]/40"
+      />
+    </div>
+    <div>
+      <label className="block text-sm font-medium text-gray-600 mb-1">Email</label>
+      <input
+        type="email"
+        name="email"
+        placeholder="your.email@example.com"
+        className="w-full px-4 py-3 rounded-xl border border-gray-300 bg-white/80
+                   focus:outline-none focus:ring-2 focus:ring-[#14b8a5]/40"
+      />
+    </div>
+  </div>
 
-          <div>
-            <label className="block text-sm font-medium text-gray-600 mb-1">Subject</label>
-            <input
-              type="text"
-              placeholder="Project inquiry"
-              className="w-full px-4 py-3 rounded-xl border border-gray-300 bg-white/80
-                         focus:outline-none focus:ring-2 focus:ring-[#14b8a5]/40"
-            />
-          </div>
+  <div>
+    <label className="block text-sm font-medium text-gray-600 mb-1">Subject</label>
+    <input
+      type="text"
+      name="subject"
+      placeholder="Project inquiry"
+      className="w-full px-4 py-3 rounded-xl border border-gray-300 bg-white/80
+                 focus:outline-none focus:ring-2 focus:ring-[#14b8a5]/40"
+    />
+  </div>
 
-          <div>
-            <label className="block text-sm font-medium text-gray-600 mb-1">Message</label>
-            <textarea
-              rows={5}
-              placeholder="Tell me about your project..."
-              className="w-full px-4 py-3 rounded-xl border border-gray-300 bg-white/80
-                         focus:outline-none focus:ring-2 focus:ring-[#14b8a5]/40"
-            />
-          </div>
+  <div>
+    <label className="block text-sm font-medium text-gray-600 mb-1">Message</label>
+    <textarea
+      name="message"
+      rows={5}
+      placeholder="Tell me about your project..."
+      className="w-full px-4 py-3 rounded-xl border border-gray-300 bg-white/80
+                 focus:outline-none focus:ring-2 focus:ring-[#14b8a5]/40"
+    />
+  </div>
 
-          <button
-            type="submit"
-            className="w-fit px-10 py-3 rounded-full bg-[#14b8a5] text-white font-medium
-                       hover:bg-[#0f766e]
-                       hover:shadow-[0_0_25px_rgba(20,184,165,0.45)]
-                       active:scale-95 transition"
-          >
-            Send Message
-          </button>
-        </form>
+  <button
+    type="submit"
+    className="w-fit px-10 py-3 rounded-full bg-[#14b8a5] text-white font-medium
+               hover:bg-[#0f766e]
+               hover:shadow-[0_0_25px_rgba(20,184,165,0.45)]
+               active:scale-95 transition"
+  >
+    Send Message
+  </button>
+</form>
 
         {/* Right Panel */}
         <div className="flex flex-col justify-between gap-10">
