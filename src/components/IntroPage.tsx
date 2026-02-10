@@ -44,9 +44,9 @@ const IntroPage = () => {
                         <div className="relative">
                             <div className="absolute inset-0 rounded-full bg-teal-400/20 blur-3xl"></div>
                             <img
-                                src="./govindabitlani.jpeg"
+                                src="./govindabitlani.jpg"
                                 alt="Govinda Bitlani"
-                                className="relative w-72 h-72 lg:w-96 lg:h-96 object-contain rounded-full shadow-2xl bg-[#818686] "
+                                className="relative w-72 h-72 lg:w-96 lg:h-96 object-cover rounded-full shadow-2xl bg-[#818686] "
                             />
                         </div>
                     </div>
