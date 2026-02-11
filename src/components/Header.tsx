@@ -8,7 +8,7 @@ const Header = () => {
   return (
     <header className="w-full rounded-4xl px-8 py-4 fixed z-50
   backdrop-blur-xl
-  bg-white
+  bg-white/50
   border-t
   border-white/30
   shadow-[0_-10px_30px_rgba(0,0,0,0.05)]">
@@ -31,7 +31,7 @@ const Header = () => {
               >
                 <a href={`#${item.toLowerCase()}`} >
 
-                {item}
+                  {item}
                 </a>
                 {/* Animated underline */}
                 <span className="absolute left-0 -bottom-1 w-0 h-0.5 bg-[#14b8a5] transition-all duration-300 group-hover:w-full"></span>

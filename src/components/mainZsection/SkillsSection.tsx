@@ -64,17 +64,17 @@ const SkillsSection = () => {
                             <h3 className="text-lg font-semibold group-hover:text-[#14b8a5] transition">
                                 {skill.name}
                             </h3>
-                            <span className="text-sm text-gray-500">{skill.level}%</span>
+                            {/* <span className="text-sm text-gray-500">{skill.level}%</span> */}
                         </div>
 
                         {/* Progress Bar */}
-                        <div className="w-full h-2 rounded-full bg-gray-200 overflow-hidden">
+                        {/* <div className="w-full h-2 rounded-full bg-gray-200 overflow-hidden">
                             <div
                                 className="h-full rounded-full bg-linear-to-r from-[#14b8a5] to-[#22d3ee]
                            transition-all duration-700 ease-out"
                                 style={{ width: `${skill.level}%` }}
                             />
-                        </div>
+                        </div> */}
 
                         {/* Category Tag */}
                         <div className="mt-4 text-xs inline-block px-3 py-1 rounded-full

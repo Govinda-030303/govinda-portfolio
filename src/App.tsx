@@ -25,7 +25,7 @@ const App = () => {
           <IntroPage />
         </div> :
 
-          <div className="p-3 overflow-hidden  bg-white/75 ">
+          <div className="p-3 overflow-hidden bg-linear-to-r form-blue-200 via-cyan-100 to-cyan-100/30">
             <Header />
             <MainSection />
             <Footer />

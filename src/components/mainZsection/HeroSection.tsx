@@ -15,7 +15,7 @@ const HeroSection = () => {
         <section className="flex flex-col items-center justify-center text-center px-6 py-16 min-h-screen">
 
             {/* Role badge */}
-            <div className="inline-block mb-6 px-6 py-2 text-[#14b8a5] bg-[#14b8a5]/10 border border-[#14b8a5]/20 rounded-full text-sm font-medium tracking-wide">
+            <div className="inline-block mb-6 px-6 py-2 text-[#258479] bg-[#14b8a5]/10 border border-[#14b8a5]/20 rounded-full text-sm font-medium tracking-wide">
                 Full-Stack Developer
             </div>
 
@@ -27,7 +27,7 @@ const HeroSection = () => {
             </div>
 
             {/* Subheading */}
-            <p className="max-w-2xl mb-8 text-lg text-gray-300 leading-relaxed">
+            <p className="max-w-2xl mb-8 text-lg text-black leading-relaxed">
                 Expert in <span className="text-[#14b8a5] font-semibold">Java, Spring Boot, React, TypeScript, and AI integration</span>.
                 Transforming ideas into robust, enterprise-grade solutions.
             </p>
